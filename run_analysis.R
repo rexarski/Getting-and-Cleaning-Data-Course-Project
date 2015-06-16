@@ -54,4 +54,4 @@ for (i in 1:sLength) {
         row <- row + 1
     }
 }
-write.table(result, "final_data.txt")
+write.table(result, "final_data.txt", row.name=FALSE)
